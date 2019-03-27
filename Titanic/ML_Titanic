@@ -438,6 +438,8 @@ test_df.head(10)
 ## 7) Perceptron
 ## 8) Stochastic Gradient Descent
 ## 9) Linear SVC
+## 10) Gradient Boosting Classifier
+## 11) MLP
 
 X_train = train_df.drop("Survived", axis=1)
 Y_train = train_df["Survived"]
